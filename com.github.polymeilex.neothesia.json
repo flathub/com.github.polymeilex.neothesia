@@ -37,8 +37,8 @@
         {
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
-          "tag": "v0.0.15",
-          "commit": "496081609372b358ed3e38bae37ed2a2ce26fe80"
+          "tag": "notes-corrners-revert",
+          "commit": "847916b05fbe586db1fc346378722309809b90b3"
         },
         "cargo-sources.json"
       ]
