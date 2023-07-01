@@ -37,8 +37,8 @@
         {
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
-          "tag": "v0.0.16",
-          "commit": "48d5d4b99d71ec4eaa9f9797d3485922b0702602"
+          "tag": "v0.1.0-flathub",
+          "commit": "d39c1c97eb7c1c6e042be3ce59286ed0feecdf7a"
         },
         "cargo-sources.json"
       ]
