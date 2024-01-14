@@ -10,8 +10,7 @@
     "--socket=fallback-x11",
     "--socket=wayland",
     "--socket=pulseaudio",
-    "--device=all",
-    "--filesystem=xdg-config/neothesia"
+    "--device=all"
   ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin",
@@ -24,7 +23,8 @@
       "name": "neothesia",
       "buildsystem": "simple",
       "build-commands": [
-        "cargo --offline fetch --manifest-path Cargo.toml",
+        "mkdir .cargo",
+        "cp ./flatpak/cargo-config.toml .cargo/config.toml",
         "cargo --offline build --release",
         "mkdir -p /app/share/neothesia/",
         "cp -ap ./default.sf2 /app/share/neothesia/default.sf2",
@@ -37,10 +37,15 @@
         {
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
-          "tag": "v0.1.0-flathub",
-          "commit": "d39c1c97eb7c1c6e042be3ce59286ed0feecdf7a"
+          "tag": "v0.2.0-flatpak",
+          "commit": "16069e9c4f111621a6c903b7c1781eb83d05c5d9"
         },
-        "cargo-sources.json"
+        {
+          "type": "archive",
+          "url": "https://github.com/flathub/com.github.polymeilex.neothesia/releases/download/0.2.0-vendor/vendor.tar.xz",
+          "sha256": "bdb3ed37cf2174f7122a6d10d87fac4f5eef649264f7beda0e6a88288f7f6ffb",
+          "dest": "vendor"
+        }
       ]
     }
   ]
