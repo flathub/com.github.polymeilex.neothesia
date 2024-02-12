@@ -10,7 +10,7 @@
     "--socket=fallback-x11",
     "--socket=wayland",
     "--socket=pulseaudio",
-    "--device=all"
+    "--device=dri"
   ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin",
@@ -37,8 +37,8 @@
         {
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
-          "tag": "v0.2.0-flatpak",
-          "commit": "16069e9c4f111621a6c903b7c1781eb83d05c5d9"
+          "tag": "v0.2.1-flatpak",
+          "commit": "a0b670fd4cb1c24d46abf41c879d50bf15bbc004"
         },
         {
           "type": "archive",
