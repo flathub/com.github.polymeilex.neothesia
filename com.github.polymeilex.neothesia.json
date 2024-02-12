@@ -38,7 +38,7 @@
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
           "tag": "v0.2.1-flatpak",
-          "commit": "a0b670fd4cb1c24d46abf41c879d50bf15bbc004"
+          "commit": "a28da78a2d1a3e9c0678cbd3e7b09b91c42b91e1"
         },
         {
           "type": "archive",
