@@ -29,7 +29,7 @@
         "mkdir -p /app/share/neothesia/",
         "cp -ap ./default.sf2 /app/share/neothesia/default.sf2",
         "install -Dm755 ./target/release/neothesia -t /app/bin/",
-        "install -Dm644 ./flatpak/com.github.polymeilex.neothesia.metainfo.xml -t /app/share/metainfo/",
+        "install -Dm644 com.github.polymeilex.neothesia.metainfo.xml -t /app/share/metainfo/",
         "install -Dm644 ./flatpak/com.github.polymeilex.neothesia.desktop -t /app/share/applications/",
         "install -Dm644 ./flatpak/com.github.polymeilex.neothesia.png -t /app/share/icons/hicolor/256x256/apps/"
       ],
@@ -37,14 +37,18 @@
         {
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
-          "tag": "v0.2.2-flatpak",
-          "commit": "3e0b5c0a1aba0913ed8f58f2c47d6373df6d6460"
+          "tag": "v0.3.0",
+          "commit": "55efc45017c0f94834f51ab1ee4c8f5964a26c45"
         },
         {
           "type": "archive",
-          "url": "https://github.com/flathub/com.github.polymeilex.neothesia/releases/download/0.2.0-vendor/vendor.tar.xz",
-          "sha256": "bdb3ed37cf2174f7122a6d10d87fac4f5eef649264f7beda0e6a88288f7f6ffb",
+          "url": "https://github.com/flathub/com.github.polymeilex.neothesia/releases/download/0.3.0-vendor/vendor.tar.xz",
+          "sha256": "67f8c5614dfe391fd98f8b906147802c6a411ed22490db2a89cf417cc7d27c8f",
           "dest": "vendor"
+        },
+        {
+          "type": "file",
+          "path": "com.github.polymeilex.neothesia.metainfo.xml"
         }
       ]
     }
