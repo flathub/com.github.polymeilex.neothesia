@@ -37,13 +37,13 @@
         {
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
-          "tag": "v0.3.0",
-          "commit": "55efc45017c0f94834f51ab1ee4c8f5964a26c45"
+          "tag": "v0.3.1",
+          "commit": "4406c8dc071cf695a9976479b42ec3b891227c9c"
         },
         {
           "type": "archive",
-          "url": "https://github.com/flathub/com.github.polymeilex.neothesia/releases/download/0.3.0-vendor/vendor.tar.xz",
-          "sha256": "67f8c5614dfe391fd98f8b906147802c6a411ed22490db2a89cf417cc7d27c8f",
+          "url": "https://github.com/flathub/com.github.polymeilex.neothesia/releases/download/0.3.1-vendor/vendor.tar.xz",
+          "sha256": "31b416c7eb00d9b582e19cd29b22645db67f1a84f9764d7cbf950d8c9a8a88d6",
           "dest": "vendor"
         },
         {
