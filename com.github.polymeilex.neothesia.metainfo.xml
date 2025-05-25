@@ -25,28 +25,30 @@
 
   <name>Neothesia</name>
   <developer_name>PolyMeilex - Bartłomiej Maryńczak</developer_name>
-  <summary>GPU accelerated midi visualizer</summary>
+  <summary>Learn how to play the piano</summary>
   <description>
     <p>Neothesia is a simple software that helps you to learn how to play on the piano.</p>
-    <p>For more info visit https://github.com/PolyMeilex/Neothesia</p>
+    <p>It can also be used as a MIDI visualizer.</p>
+    <p>For more information visit https://github.com/PolyMeilex/Neothesia</p>
   </description>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#7117b5</color>
+    <color type="primary" scheme_preference="dark">#7117b5</color>
+  </branding>
 
   <screenshots>
     <screenshot type="default">
-      <image>https://i.imgur.com/9IAfN00.png</image>
-      <caption>Main menu</caption>
-    </screenshot>
-    <screenshot>
       <image>https://i.imgur.com/2dzZYXS.png</image>
       <caption>Playback</caption>
     </screenshot>
     <screenshot>
-      <image>https://i.imgur.com/vZe2rvc.png</image>
-      <caption>Settings</caption>
+      <image>https://i.imgur.com/9IAfN00.png</image>
+      <caption>Main menu</caption>
     </screenshot>
     <screenshot>
-      <image>https://i.imgur.com/QfdMwMI.png</image>
-      <caption>Logo</caption>
+      <image>https://i.imgur.com/vZe2rvc.png</image>
+      <caption>Settings</caption>
     </screenshot>
   </screenshots>
 </component>

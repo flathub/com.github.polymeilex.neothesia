@@ -31,7 +31,7 @@
         "install -Dm755 ./target/release/neothesia -t /app/bin/",
         "install -Dm644 com.github.polymeilex.neothesia.metainfo.xml -t /app/share/metainfo/",
         "install -Dm644 ./flatpak/com.github.polymeilex.neothesia.desktop -t /app/share/applications/",
-        "install -Dm644 ./flatpak/com.github.polymeilex.neothesia.png -t /app/share/icons/hicolor/256x256/apps/"
+        "install -Dm644 ./com.github.polymeilex.neothesia.png -t /app/share/icons/hicolor/256x256/apps/"
       ],
       "sources": [
         {
@@ -49,6 +49,10 @@
         {
           "type": "file",
           "path": "com.github.polymeilex.neothesia.metainfo.xml"
+        },
+        {
+          "type": "file",
+          "path": "com.github.polymeilex.neothesia.png"
         }
       ]
     }
