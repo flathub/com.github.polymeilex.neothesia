@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.polymeilex.neothesia",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "24.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "neothesia",
@@ -37,13 +37,13 @@
         {
           "type": "git",
           "url": "https://github.com/PolyMeilex/Neothesia.git",
-          "tag": "v0.3.1",
-          "commit": "4406c8dc071cf695a9976479b42ec3b891227c9c"
+          "tag": "v0.4.0",
+          "commit": "724539cc6cd7dcfccd59191d92c7fb9012d465d0"
         },
         {
           "type": "archive",
-          "url": "https://github.com/flathub/com.github.polymeilex.neothesia/releases/download/0.3.1-vendor/vendor.tar.xz",
-          "sha256": "31b416c7eb00d9b582e19cd29b22645db67f1a84f9764d7cbf950d8c9a8a88d6",
+          "url": "https://github.com/flathub/com.github.polymeilex.neothesia/releases/download/0.4.0-vendor/vendor.tar.xz",
+          "sha256": "823078cc55481ea4639b9ada0fbbe0a3bf5ae7a0d87b269cee67e2537f8737d0",
           "dest": "vendor"
         },
         {
